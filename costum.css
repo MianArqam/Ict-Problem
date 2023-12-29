@@ -1,0 +1,102 @@
+/* custom.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1a1a; /* Dark background color */
+    color: #ffffff; /* White text color */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header, nav, main, section, footer {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Set a maximum width for larger screens */
+    align-self: center;
+}
+
+header, nav, main, section {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #42004f; /* Darker background color for header */
+}
+
+nav {
+    background-color: #42004f; /* Darker background color for nav */
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #838b83; /* Dark green on hover */
+    color: #fffb1a; /* White text color on hover */
+}
+
+main {
+    background-color: #333;
+    color: #ffffff; /* White text color in main */
+    margin-top: 20px;
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.image-grid img,
+.fcse-grid img,
+.enlarge-grid img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+}
+
+.image-grid img:hover,
+.fcse-grid img:hover,
+.enlarge-grid img:hover {
+    transform: scale(1.1);
+}
+
+.image-eater {
+    max-width: 54%;
+    max-height: 54%;
+    margin-bottom: 1px;
+    transition: transform 0.3s;
+
+}
+
+footer {
+    background-color: #42004f; /* Darker background color for footer */
+    color: #ffffff; /* White text color in footer */
+    padding: 2px;
+    margin-top: 10px;
+}
